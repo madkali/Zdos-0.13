@@ -21,7 +21,7 @@ class TestConfigurationUtil(unittest.TestCase):
         configuration = Configuration()
         configuration._config = {
             'ip_settings': {
-                'lan_ip_max_count': 2,
+                'lan_ip_max_count': 2
             },
             'temperature': {
                 'use_fahrenheit': False
@@ -132,7 +132,7 @@ class TestConfigurationUtil(unittest.TestCase):
             },
             'default_strings': {
                 'no_address': 'No Address',
-                'not_detected': 'Not detected',
+                'not_detected': 'Not detected'
             },
             'ip_settings': {
                 'lan_ip_max_count': 2
@@ -153,7 +153,7 @@ class TestConfigurationUtil(unittest.TestCase):
                 'default_strings': {
                     'no_address': '\xde\xad \xbe\xef',
                     'not_detected': 'Not detected',
-                    'virtual_environment': 'Virtual Environment',
+                    'virtual_environment': 'Virtual Environment'
                 },
                 'temperature': {
                     'a_weird_new_dict': [
@@ -178,7 +178,7 @@ class TestConfigurationUtil(unittest.TestCase):
                 'default_strings': {
                     'no_address': '\xde\xad \xbe\xef',
                     'not_detected': 'Not detected',
-                    'virtual_environment': 'Virtual Environment',
+                    'virtual_environment': 'Virtual Environment'
                 },
                 'ip_settings': {
                     'lan_ip_max_count': 2
