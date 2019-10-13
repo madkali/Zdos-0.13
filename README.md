@@ -1,4 +1,4 @@
-# Archey 4
+# Zdos-0.13
 
 > Archey is a simple system information tool written in Python
 
