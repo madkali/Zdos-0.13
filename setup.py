@@ -9,13 +9,13 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='archey4',
+    name='kaliNET',
     version='4.6.0',
-    description='Archey is a simple system information tool written in Python',
+    description='kaliNET is a simple system information tool written in Python',
     keywords='archey python3 linux system-information monitoring',
     url='http://git.io/archey4',
-    author='Samuel FORESTIER',  # Not alone
-    author_email='dev@samuel.domains',
+    author='roberto giannotti',  # Not alone
+    author_email='lab.zdos@protonmail.com',
     license='GPLv3',
     packages=find_packages(exclude=['archey.test']),
     test_suite='archey.test',
@@ -25,7 +25,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'archey = archey.__main__:main'
+            'kaliNET = kaliNET.__main__:main'
         ]
     },
     long_description='Maintained fork of the original Archey Linux system tool'
