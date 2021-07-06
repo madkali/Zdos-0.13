@@ -9,9 +9,9 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='archey4',
+    name='kaliNET',
     version='4.6.0',
-    description='Archey is a simple system information tool written in Python',
+    description='kaliNET is a simple system information tool written in Python',
     keywords='archey python3 linux system-information monitoring',
     url='http://git.io/archey4',
     author='Samuel FORESTIER',  # Not alone
